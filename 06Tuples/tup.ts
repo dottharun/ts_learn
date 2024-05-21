@@ -1,6 +1,6 @@
 /*
 TUPLE:
-a type of array 
+a type of array
 
 order is enforced with types
 */
@@ -12,6 +12,6 @@ user = ["my man", 34, true];
 
 let rgb: [number, number, number] = [255, 122, 123];
 
-type User = [number, string];
+type User2 = [number, string];
 
-const newUser: User = [112, "exam@ple.com"];
+const newUser: User2 = [112, "exam@ple.com"];
